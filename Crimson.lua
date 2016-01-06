@@ -24,7 +24,7 @@ end
 
 local function handleMessage(message, fromPlayer)
     SendAddonMessage("CRS", "CRS:ACK", "WHISPER", fromPlayer);
-    print("|cff777777["..date("%H:%M:%S").."] |cffaa0000[Crimson] |cffff70ff[To: |cffffffff"..fromPlayer.."|cffff70ff]: " .. message .. "|r");
+    print("|cff777777["..date("%H:%M:%S").."] |cffaa0000[Crimson] |cffff70ff[From: |cffffffff"..fromPlayer.."|cffff70ff]: " .. message .. "|r");
 end
 
 
