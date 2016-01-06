@@ -53,7 +53,7 @@ Addon:SetScript("OnEvent", function(self, event, ...)
 end);
 
 Addon:RegisterEvent("CHAT_MSG_ADDON");
-Addon:RegisterAddonMessagePrefix("CRS");
+RegisterAddonMessagePrefix("CRS");
 
 
 -- Binding Variables
