@@ -1,0 +1,7 @@
+<Bindings>
+	<Binding name="ENTRY" header="HEADER" default="0" runOnUp="true">
+    		if ( keystate == "up" ) then
+   			bindPressed();
+   		end
+ 	</Binding>
+</Bindings>

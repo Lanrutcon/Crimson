@@ -1,0 +1,8 @@
+## Interface: 40300
+## Title: Crimson
+## Author: Lanrutcon
+## Notes: Cross-Faction Whispers
+## Version: 1.0
+
+Crimson.lua
+bindings.xml
